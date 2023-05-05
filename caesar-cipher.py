@@ -30,7 +30,7 @@ def encryptMessage(message, cipherKey, alphabet):
     #Descriptografia de uma mensagem
 def decryptMessage(message, cipherKey, alphabet):
     decryptKey = -1 * int(cipherKey)
-    return encryptMessage(message, cipherKey, alphabet)
+    return encryptMessage(message, decryptKey, alphabet)
     
     #criação de uma função principal
 def runCaesarCipherProgram():
